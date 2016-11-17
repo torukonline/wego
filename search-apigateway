@@ -1,0 +1,4 @@
+spring.application.name:search-apigateway
+zuul.routes.search-apigateway.serviceId:search-service
+zuul.routes.search-apigateway.path:/api/**
+eureka.client.serviceUrl.defaultZone:http://101.200.132.191:8761/eureka/
